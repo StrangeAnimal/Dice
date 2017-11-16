@@ -37,20 +37,19 @@ int main(int argc, char **argv)
     srand(time(NULL));
     
     while(1){
+        
+        
+       system("cls"); 
 char top [4];
 char mid [6];
 char bottom [4];
     
-    int x = 4;
-    int y = 3;
+    int x;
+    int y;
 
 
    
     x = random();
-    
-  
-    
-    
     y = random();
    
     
@@ -183,20 +182,8 @@ char bottom [4];
     
     dice(top,mid,bottom);
     
+    getchar();
     
-    
-    
-    
-    
-    /*
-   one(1);
-   two(1);
-   three(1);
-   four(1);
-   five(1);
-   six(1);
-    */
- getchar();
 }
 
 return 0;
