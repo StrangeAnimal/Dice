@@ -44,8 +44,8 @@ char top [4];
 char mid [6];
 char bottom [4];
     
-    int x = 4;
-    int y = 3;
+    int x;
+    int y;
 
 
    
